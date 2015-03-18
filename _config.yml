@@ -5,7 +5,7 @@ name: "NoWhere"
 markdown: rdiscount
 
 author: "foresea"
-baseurl: "cxzhang.com/blog"
+atom-baseurl: "http://cxzhang.com"
 disqus: "foresea.git"
 
 navigations:
