@@ -1,14 +1,12 @@
 ---
-title: untitled
+title: Hello World
 layout: post
 guid: urn:uuid:050de99c-7597-49a3-9281-9ca84fccbb5b
 tags:
   - photography
-  - leica
-  - m6
-  - summicron-dr
+  - Xpan
 ---
 
-[![](/media/files/2015/03/01/pic.jpg)](https://www.flickr.com/photos/lhzhang/16134724228/)
+[![](/media/files/2015/03/19/pic.jpg)](https://www.flickr.com/photos/foresea/8639690128/)
 
-取名真是件麻烦的事情
+Hello World!
