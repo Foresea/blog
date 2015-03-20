@@ -7,7 +7,6 @@ tags:
   - Leica
   - M6
   - Canon
-  - Thinking
   - Makina
   - Contax
   - T2
@@ -17,6 +16,7 @@ tags:
   - Hassel
   - Sony
   - A7
+  - Thinking
   
 ---
 #####foresea--生活求学在香港，兴趣杂乱的程序员######
