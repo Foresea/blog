@@ -3,7 +3,7 @@ highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 name: "Foresea"
 markdown: rdiscount
- 
+
 author: "foresea"
 atom-baseurl: "http://cxzhang.com"
 disqus: "foresea.git"
