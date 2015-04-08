@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="/media/css/index-style.css" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/> 
+<title>Foresea</title>
+  <script language="JavaScript">
+    var inum = 10;
+    var rand1 = Math.round(Math.random() * (inum-1)) + 1;
+    images = new Array;
+    images[1] = "hokkaido";
+    images[2] = "kyoto";
+    images[3] = "hokkaido2";
+    images[4] = "kending";
+    images[5] = "kyoto2";
+    images[6] = "kending2";
+    images[7] = "kending3";
+    images[8] = "tainan";
+    images[9] = "tainan2";
+    images[10] = "taipei";
+      
+    var image = '/media/imgs/' + images[rand1];
+
+    if ((screen.width < 480) || (screen.height < 480)) {
+    	image += '_vert';
+    }
+    image += '.jpg';
+  </script>
+  <script type="text/javascript" src="http://use.typekit.com/aja8fvu.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <title>Foresea</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <div class="container">
+      <script language="JavaScript">
+        document.write('<div class="bigImage" style="background-image: url(' + image + ');">')
+      </script>
+
+      <div class="content">
+        <div class="name">Foresea</div>
+          <ul class="list">
+            <a href="http://cxzhang.com/archive" target="_BLANK"><li>Writes on Blog</li></a>
+            <a href="http://cxzhang.com/translation" target="_BLANK"><li>Amateur Translation</li></a>
+            <a href="http://cargocollective.com/foresea/" target="_BLANK"><li>Photos on Cargo</li></a>
+            <a href="http://www.douban.com/people/owen289607833/" target="_BLANK"><li>Chirps on Douban</li></a>
+          </ul>
+      </div>
+    </div>
+    <div style="top: 50%; left: 50%; position: absolute; width: 500; height: 600px;">
+    <div class=""></div>
+  </body>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38349593-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</html>

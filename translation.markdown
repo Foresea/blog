@@ -1,10 +1,10 @@
 ---
-title: Archive
+title: Amateur Translation
 layout: page
 ---
 
 <ul class="listing">
-{% for post in site.tags.Thoughts %}
+{% for post in site.tags.Translation %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}

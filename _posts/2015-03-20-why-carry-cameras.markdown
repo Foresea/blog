@@ -16,7 +16,7 @@ tags:
   - Hassel
   - Sony
   - A7
-  - Thinking
+  - Thoughts
   
 ---
 #####foresea--生活求学在香港，兴趣杂乱的程序员######
