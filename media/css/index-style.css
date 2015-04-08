@@ -37,8 +37,8 @@ p {
 
 
 .content {
-	width: 200px;
-	background-color: rgb(242, 242, 242);
+	width: 220px;
+	background-color: rgb(248, 248, 248);
 	position: absolute;
 	top: 40%;
 	top: calc(50% - 115px);
@@ -148,18 +148,30 @@ p {
 }
 
 /* For IE 6/7 (trigger hasLayout) */
-.fa {
-	opacity: 0.7;
+.social a{
+	color: #000;
 }
 
+.fa {
+	opacity: 0.7;
+	padding-right: 5px;
+}
+.social{
+	position: relative;
+	padding: 20px 20px 0 20px;
+}
 .clearfix {
     zoom:1;
 }
 
 .douban-icon {
+	position: absolute;
+	right: 28px;
+	top: 22px;
+	opacity: 0.7;
     width:            27px;
     height:           27px;
-    border-radius: 	  3px;
+    border-radius: 	  4px;
     background-image: url('/media/icons/douban.ico');
     background-size: 27px 27px;
 }
